@@ -2,6 +2,13 @@
   "name": "vue-map-component",
   "private": false,
   "version": "0.0.3",
+  "description": "A Vue wrapper for Leaflet maps",
+  "author": "Craftrac",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craftrac/vue-map-component.git"
+  },
   "type": "module",
   "main": "dist/vue-map-component.js",
   "module": "dist/vue-map-component.umd.cjs",
