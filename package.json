@@ -1,8 +1,8 @@
 {
-  "name": "vue-map-component",
+  "name": "vue3-lmap",
   "private": false,
   "version": "0.0.3",
-  "description": "A Vue wrapper for Leaflet maps",
+  "description": "A Vue 3 wrapper for Leaflet maps",
   "author": "Craftrac",
   "license": "MIT",
   "repository": {
