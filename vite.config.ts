@@ -3,20 +3,25 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()],
   build: {
-    lib: {
-      entry: 'src/index.ts',
-      name: 'VueMapComponent',
-      fileName: 'vue-map-component',
-    },
+    outDir: "es",
+    minify: false,
     rollupOptions: {
         external: ['vue'],
+        input: ['src/index.ts'],
         output: {
             globals: {
-                vue: 'Vue'
-            }
-        }
-    }
+                vue: "Vue"
+            },
+            dir: "dist",
+        },
+    },
+    lib: {
+      entry: 'src/index.ts',
+      name: 'vue-map-component',
+      fileName: 'vue-map-component',
+      formats: ['es', 'umd', 'cjs'],
+    },
   },
-})
+  plugins: [vue()],
+});

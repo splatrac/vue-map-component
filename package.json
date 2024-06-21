@@ -1,7 +1,7 @@
 {
   "name": "vue-map-component",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.3",
   "type": "module",
   "main": "dist/vue-map-component.js",
   "module": "dist/vue-map-component.umd.cjs",
