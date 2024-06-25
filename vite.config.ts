@@ -18,8 +18,8 @@ export default defineConfig({
     },
     lib: {
       entry: 'src/index.ts',
-      name: 'vue-map-component',
-      fileName: 'vue-map-component',
+      name: 'vue3-leafmap',
+      fileName: 'vue3-leafmap',
       formats: ['es', 'umd', 'cjs'],
     },
   },
